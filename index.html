@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>IIIT BBSR</title>
+    <title>IIIT BBSR-Home</title>
     <link rel="shortcut icon" href="images/Logo.png">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,13 +20,13 @@
             <div class="nav-links" id="navlinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i> 
                 <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="">Acadamics</a></li>
-                        <li><a href="">Admission</a></li>
-                        <li><a href="Schedule.html">Schedule</a></li>
-                        <li><a href="AboutUs.html">About us</a></li>
-                        <li><a href="">More</a></li>
-                        </ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="StudentSection.html">Student Section</a></li>
+                    <li><a href="">Admission</a></li>
+                    <li><a href="Schedule.html">Schedule</a></li>
+                    <li><a href="aboutUs.html">About us</a></li>
+                    <li><a href="">More</a></li>
+                    </ul>
                 
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -42,30 +42,31 @@
 
 <div class="slider">
     <div class="slide active">
-        <img src="images/slides.jpg" alt="annn">
-        <div class="info"><p>in this</p></div>
+        <img src="images/slide1.jpeg" alt="annn">
+        <div class="info"><p>in this Lorem ipsum dolor sit.</p></div>
     </div>
     <div class="slide">
-        <img src="images/slides.jpg" alt="annn">
-        <div class="info"><p>in this</p></div>
+        <img src="images/slides2.jpg" alt="annn">
+        <div class="info"><p>in this Lorem ipsum dolor sit.
+        </p></div>
         
     </div>
     <div class="slide">
-        <img src="images/slides.jpg" alt="annn">
+        <img src="images/slide3.jpeg" alt="annn">
         <div class="info"><p>in this</p></div>
     </div>
     <div class="slide">
-        <img src="images/slides.jpg" alt="annn">
+        <img src="images/slide4.jpeg" alt="annn">
         <div class="info"><p>in this</p></div>
     </div>
         <div class="slide">
-            <img src="images/slides.jpg" alt="annn">
+            <img src="images/slide5.jpeg" alt="annn">
             <div class="info"><p>in this</p></div>
         </div>
         
     
     <div class="slide">
-        <img src="images/slides.jpg" alt="annn">
+        <img src="images/slides2.jpg" alt="annn">
         <div class="info"><p>in this Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, delectus.</p></div>
     </div> 
 
@@ -83,9 +84,12 @@
     
 </div>
 
-<div class="col news1">
-    <h1>Tender</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sit eveniet maxime nostrum asperiores, placeat nemo vel. Eaque, deserunt omnis? Voluptatem?</p>
+<div class="col news1" id="student">
+    <a href="StudentSection.html">
+    <h1>Student Section</h1>
+    <p>IIIT Bhubaneswar offers an extraordinary environment for its students. Staff, faculty and students share an intimate relationship. The diversity and rich mix of experience, background and culture, coupled with shared traits of talent and high aspiration, produces an inspirational vitality and enriches learning inside and outside the classroom.<br>
+        High degree of interaction among the faculty, students and corporate visitors is a way of life. Life at IIIT, Bhubaneswar is competitive, co-operative, friendly, helpful, impressive and stimulating. As members of this community, students forge deep and lasting friendships during their stay here. The quality of life as well as learning is enhanced in the company of such energetic, ambitious, interesting and committed people.</p>
+    </a>
 </div>
 </section>
 
@@ -94,9 +98,19 @@
         <h1>News & Event</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi maiores laborum, earum amet odio expedita in dignissimos ducimus quisquam soluta voluptas, eum aliquam obcaecati!</p>
    </div>
+   
    <div class="news">
+    <a href="NoticeBoard.html">
         <h1>Notice Board</h1>
-   </div>
+        <p>Order {New to Old}</p>
+        <ul>
+            <li>14th September 2021 TCMA class has been cancelled for 2nd year EEE students.</li>
+            <li>Second sem results are out on MUMS website.</li>
+            <li>Jolly Dey has just uploaded an BME assignment for 2nd year EEE students!</li>
+            <li>Python classes will start form 13th September 2021 for 2nd year EEE students.</li>
+            <li>Read more.....</li>
+        </ul>
+   </div></a>
 </div>
 
 
@@ -232,7 +246,7 @@
                     return;
                 }
                 repeater();
-            },10000);
+            },4000);
         }
         repeater();
 

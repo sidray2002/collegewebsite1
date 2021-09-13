@@ -221,3 +221,18 @@ table, th, td {
     
 }
 
+@media(max-width:800px)
+{
+    .time1
+{
+    margin: 0;
+    width: 100%;
+
+}
+
+table, th, td {
+    
+    font-size: 8px;
+}
+
+}

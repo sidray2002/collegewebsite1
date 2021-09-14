@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIIT-BBSR-Login</title>
+
+    <link rel="shortcut icon" href="images/Logo.png">
+    <link rel="stylesheet" href="Loginpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet"> 
+    <script src="https://use.fontawesome.com/05c2f70f58.js"></script>
+</head>
+<body> 
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"> <img src="images/Logo.png"> </a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i> 
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="StudentSection.html">Student Section</a></li>
+                    <li><a href="">Admission</a></li>
+                    <li><a href="Schedule.html">Schedule</a></li>
+                    <li><a href="aboutUs.html">About us</a></li>
+                    <li><a href="Loginpage.html">Login</a></li>
+                    </ul>
+                
+                
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="login">
+            <h1>Login</h1>
+
+            <div class="name">
+                <p>I'd:-</p>
+                <input type="text" class="Emailt" placeholder="Type here"> </div>
+
+                <div class="name">
+                    <p>Password:-</p>
+                    <input type="text" class="Emailt" placeholder="Type here"> </div>
+                    
+                    <div class="btn">
+                    <button class="signin">Sign In</button> 
+                    <a href="Signup.html"><button class="signup">Sign Up</button></a> </div>
+
+            </div>
+
+
+
+            
+
+
+        </div>
+
+     
+    </section>
+
+    <div class="endbar">
+        <div class="end-info">
+            <p>Copyright © 2006 - 2021 <br> IIIT Bhubaneswar, Gothapatna, PO: Malipada, Bhubaneswar-751003, India
+            </p>
+            <a class="weatherwidget-io" href="https://forecast7.com/en/20d3085d82/bhubaneswar/" data-label_1="BHUBANESWAR" data-label_2="WEATHER" data-mode="Current" data-textcolor="rgba(255, 255, 255, 0.98)" >BHUBANESWAR WEATHER</a>
+            <script>
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+            </script>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    var navlinks=document.getElementById("navlinks");
+
+    function showMenu()
+    {
+        navlinks.style.right="0";
+    }
+
+    function hideMenu()
+    {
+        navlinks.style.right="-100%";
+    }
+</script>
